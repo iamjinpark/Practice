@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/* navigation bar */
+nav {
+    height: 80px;
+    background-color: rgb(83, 196, 83);
+    line-height: 80px;
+}
+
+.nav-logo {
+    float: left;
+    font-size: 30px;
+    margin: 0;
+}
+
+.nav-menu {
+    float: right;
+}
+
+.nav-btn {
+    list-style-type: none;
+    margin: 0;
+}
+
+ul.nav-btn>li {
+    float: left;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* header */
+
+.hd {
+    position: relative;
+    height: 900px;
+    text-align: center;
+}
+
+.hd-title {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-top: 200px;
+    font-weight: bold;
+}
+
+.hd-content {
+    font-size: 25px;
+}
+
+.hd:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-image: url("https://mybank.com/wp-content/uploads/42011670-86BB-43A9-B0A5-31AB9A7AFEF1-1080x600.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.hd .container {
+    position: relative;
+    color: black;
+}
